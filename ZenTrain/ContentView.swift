@@ -10,27 +10,27 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
+    @Query private var logs: [ExerciseLog]
 
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(items) { item in
+                ForEach(logs) { log in
                     NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
+                        Text("\(log.exercise)")
                     } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
+                        Text(log.exercise)
                     }
                 }
-                .onDelete(perform: deleteItems)
+                .onDelete(perform: deleteLog)
             }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     EditButton()
                 }
                 ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
+                    Button(action: addLog) {
+                        Label("Add Log", systemImage: "plus")
                     }
                 }
             }
@@ -39,17 +39,22 @@ struct ContentView: View {
         }
     }
 
-    private func addItem() {
+    private func addLog() {
         withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
+            let newLog = ExerciseLog(exercise: "20mm",
+                                     timestamp: Date(),
+                                     sets: 1,
+                                     reps: 1,
+                                     weight: 69
+            )
+            modelContext.insert(newLog)
         }
     }
 
-    private func deleteItems(offsets: IndexSet) {
+    private func deleteLog(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
-                modelContext.delete(items[index])
+                modelContext.delete(logs[index])
             }
         }
     }
@@ -57,5 +62,5 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+        .modelContainer(for: ExerciseLog.self, inMemory: true)
 }

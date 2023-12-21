@@ -15,6 +15,7 @@
 		290D7C572B33F0BB00EA9877 /* ZenTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C562B33F0BB00EA9877 /* ZenTrainTests.swift */; };
 		290D7C612B33F0BB00EA9877 /* ZenTrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C602B33F0BB00EA9877 /* ZenTrainUITests.swift */; };
 		290D7C632B33F0BB00EA9877 /* ZenTrainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C622B33F0BB00EA9877 /* ZenTrainUITestsLaunchTests.swift */; };
+		290D7C702B3406CD00EA9877 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C6F2B3406CD00EA9877 /* Exercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		290D7C5C2B33F0BB00EA9877 /* ZenTrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenTrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		290D7C602B33F0BB00EA9877 /* ZenTrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTrainUITests.swift; sourceTree = "<group>"; };
 		290D7C622B33F0BB00EA9877 /* ZenTrainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTrainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		290D7C6F2B3406CD00EA9877 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				290D7C472B33F0B500EA9877 /* Item.swift */,
 				290D7C492B33F0BB00EA9877 /* Assets.xcassets */,
 				290D7C4B2B33F0BB00EA9877 /* Preview Content */,
+				290D7C6F2B3406CD00EA9877 /* Exercise.swift */,
 			);
 			path = ZenTrain;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				290D7C462B33F0B500EA9877 /* ContentView.swift in Sources */,
+				290D7C702B3406CD00EA9877 /* Exercise.swift in Sources */,
 				290D7C482B33F0B500EA9877 /* Item.swift in Sources */,
 				290D7C442B33F0B500EA9877 /* ZenTrainApp.swift in Sources */,
 			);
