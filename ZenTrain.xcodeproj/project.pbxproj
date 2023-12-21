@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		290D7C442B33F0B500EA9877 /* ZenTrainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C432B33F0B500EA9877 /* ZenTrainApp.swift */; };
+		290D7C462B33F0B500EA9877 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C452B33F0B500EA9877 /* ContentView.swift */; };
+		290D7C482B33F0B500EA9877 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C472B33F0B500EA9877 /* Item.swift */; };
+		290D7C4A2B33F0BB00EA9877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290D7C492B33F0BB00EA9877 /* Assets.xcassets */; };
+		290D7C4D2B33F0BB00EA9877 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290D7C4C2B33F0BB00EA9877 /* Preview Assets.xcassets */; };
+		290D7C572B33F0BB00EA9877 /* ZenTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C562B33F0BB00EA9877 /* ZenTrainTests.swift */; };
+		290D7C612B33F0BB00EA9877 /* ZenTrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C602B33F0BB00EA9877 /* ZenTrainUITests.swift */; };
+		290D7C632B33F0BB00EA9877 /* ZenTrainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290D7C622B33F0BB00EA9877 /* ZenTrainUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		290D7C532B33F0BB00EA9877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290D7C382B33F0B500EA9877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290D7C3F2B33F0B500EA9877;
+			remoteInfo = ZenTrain;
+		};
+		290D7C5D2B33F0BB00EA9877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 290D7C382B33F0B500EA9877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 290D7C3F2B33F0B500EA9877;
+			remoteInfo = ZenTrain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		290D7C402B33F0B500EA9877 /* ZenTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		290D7C432B33F0B500EA9877 /* ZenTrainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTrainApp.swift; sourceTree = "<group>"; };
+		290D7C452B33F0B500EA9877 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		290D7C472B33F0B500EA9877 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		290D7C492B33F0BB00EA9877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		290D7C4C2B33F0BB00EA9877 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		290D7C522B33F0BB00EA9877 /* ZenTrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenTrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		290D7C562B33F0BB00EA9877 /* ZenTrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTrainTests.swift; sourceTree = "<group>"; };
+		290D7C5C2B33F0BB00EA9877 /* ZenTrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZenTrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		290D7C602B33F0BB00EA9877 /* ZenTrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTrainUITests.swift; sourceTree = "<group>"; };
+		290D7C622B33F0BB00EA9877 /* ZenTrainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenTrainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		290D7C3D2B33F0B500EA9877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290D7C4F2B33F0BB00EA9877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290D7C592B33F0BB00EA9877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290D7C372B33F0B500EA9877 = {
+			isa = PBXGroup;
+			children = (
+				290D7C422B33F0B500EA9877 /* ZenTrain */,
+				290D7C552B33F0BB00EA9877 /* ZenTrainTests */,
+				290D7C5F2B33F0BB00EA9877 /* ZenTrainUITests */,
+				290D7C412B33F0B500EA9877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		290D7C412B33F0B500EA9877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				290D7C402B33F0B500EA9877 /* ZenTrain.app */,
+				290D7C522B33F0BB00EA9877 /* ZenTrainTests.xctest */,
+				290D7C5C2B33F0BB00EA9877 /* ZenTrainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		290D7C422B33F0B500EA9877 /* ZenTrain */ = {
+			isa = PBXGroup;
+			children = (
+				290D7C432B33F0B500EA9877 /* ZenTrainApp.swift */,
+				290D7C452B33F0B500EA9877 /* ContentView.swift */,
+				290D7C472B33F0B500EA9877 /* Item.swift */,
+				290D7C492B33F0BB00EA9877 /* Assets.xcassets */,
+				290D7C4B2B33F0BB00EA9877 /* Preview Content */,
+			);
+			path = ZenTrain;
+			sourceTree = "<group>";
+		};
+		290D7C4B2B33F0BB00EA9877 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				290D7C4C2B33F0BB00EA9877 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		290D7C552B33F0BB00EA9877 /* ZenTrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				290D7C562B33F0BB00EA9877 /* ZenTrainTests.swift */,
+			);
+			path = ZenTrainTests;
+			sourceTree = "<group>";
+		};
+		290D7C5F2B33F0BB00EA9877 /* ZenTrainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				290D7C602B33F0BB00EA9877 /* ZenTrainUITests.swift */,
+				290D7C622B33F0BB00EA9877 /* ZenTrainUITestsLaunchTests.swift */,
+			);
+			path = ZenTrainUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		290D7C3F2B33F0B500EA9877 /* ZenTrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290D7C662B33F0BB00EA9877 /* Build configuration list for PBXNativeTarget "ZenTrain" */;
+			buildPhases = (
+				290D7C3C2B33F0B500EA9877 /* Sources */,
+				290D7C3D2B33F0B500EA9877 /* Frameworks */,
+				290D7C3E2B33F0B500EA9877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenTrain;
+			productName = ZenTrain;
+			productReference = 290D7C402B33F0B500EA9877 /* ZenTrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		290D7C512B33F0BB00EA9877 /* ZenTrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290D7C692B33F0BB00EA9877 /* Build configuration list for PBXNativeTarget "ZenTrainTests" */;
+			buildPhases = (
+				290D7C4E2B33F0BB00EA9877 /* Sources */,
+				290D7C4F2B33F0BB00EA9877 /* Frameworks */,
+				290D7C502B33F0BB00EA9877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290D7C542B33F0BB00EA9877 /* PBXTargetDependency */,
+			);
+			name = ZenTrainTests;
+			productName = ZenTrainTests;
+			productReference = 290D7C522B33F0BB00EA9877 /* ZenTrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		290D7C5B2B33F0BB00EA9877 /* ZenTrainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 290D7C6C2B33F0BB00EA9877 /* Build configuration list for PBXNativeTarget "ZenTrainUITests" */;
+			buildPhases = (
+				290D7C582B33F0BB00EA9877 /* Sources */,
+				290D7C592B33F0BB00EA9877 /* Frameworks */,
+				290D7C5A2B33F0BB00EA9877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				290D7C5E2B33F0BB00EA9877 /* PBXTargetDependency */,
+			);
+			name = ZenTrainUITests;
+			productName = ZenTrainUITests;
+			productReference = 290D7C5C2B33F0BB00EA9877 /* ZenTrainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		290D7C382B33F0B500EA9877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					290D7C3F2B33F0B500EA9877 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					290D7C512B33F0BB00EA9877 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 290D7C3F2B33F0B500EA9877;
+					};
+					290D7C5B2B33F0BB00EA9877 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 290D7C3F2B33F0B500EA9877;
+					};
+				};
+			};
+			buildConfigurationList = 290D7C3B2B33F0B500EA9877 /* Build configuration list for PBXProject "ZenTrain" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 290D7C372B33F0B500EA9877;
+			productRefGroup = 290D7C412B33F0B500EA9877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				290D7C3F2B33F0B500EA9877 /* ZenTrain */,
+				290D7C512B33F0BB00EA9877 /* ZenTrainTests */,
+				290D7C5B2B33F0BB00EA9877 /* ZenTrainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		290D7C3E2B33F0B500EA9877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290D7C4D2B33F0BB00EA9877 /* Preview Assets.xcassets in Resources */,
+				290D7C4A2B33F0BB00EA9877 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290D7C502B33F0BB00EA9877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290D7C5A2B33F0BB00EA9877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		290D7C3C2B33F0B500EA9877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290D7C462B33F0B500EA9877 /* ContentView.swift in Sources */,
+				290D7C482B33F0B500EA9877 /* Item.swift in Sources */,
+				290D7C442B33F0B500EA9877 /* ZenTrainApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290D7C4E2B33F0BB00EA9877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290D7C572B33F0BB00EA9877 /* ZenTrainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		290D7C582B33F0BB00EA9877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				290D7C632B33F0BB00EA9877 /* ZenTrainUITestsLaunchTests.swift in Sources */,
+				290D7C612B33F0BB00EA9877 /* ZenTrainUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		290D7C542B33F0BB00EA9877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290D7C3F2B33F0B500EA9877 /* ZenTrain */;
+			targetProxy = 290D7C532B33F0BB00EA9877 /* PBXContainerItemProxy */;
+		};
+		290D7C5E2B33F0BB00EA9877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 290D7C3F2B33F0B500EA9877 /* ZenTrain */;
+			targetProxy = 290D7C5D2B33F0BB00EA9877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		290D7C642B33F0BB00EA9877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		290D7C652B33F0BB00EA9877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		290D7C672B33F0BB00EA9877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenTrain/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brleinad.ZenTrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		290D7C682B33F0BB00EA9877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZenTrain/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brleinad.ZenTrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		290D7C6A2B33F0BB00EA9877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brleinad.ZenTrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenTrain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZenTrain";
+			};
+			name = Debug;
+		};
+		290D7C6B2B33F0BB00EA9877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brleinad.ZenTrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZenTrain.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ZenTrain";
+			};
+			name = Release;
+		};
+		290D7C6D2B33F0BB00EA9877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brleinad.ZenTrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZenTrain;
+			};
+			name = Debug;
+		};
+		290D7C6E2B33F0BB00EA9877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.brleinad.ZenTrainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZenTrain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		290D7C3B2B33F0B500EA9877 /* Build configuration list for PBXProject "ZenTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290D7C642B33F0BB00EA9877 /* Debug */,
+				290D7C652B33F0BB00EA9877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290D7C662B33F0BB00EA9877 /* Build configuration list for PBXNativeTarget "ZenTrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290D7C672B33F0BB00EA9877 /* Debug */,
+				290D7C682B33F0BB00EA9877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290D7C692B33F0BB00EA9877 /* Build configuration list for PBXNativeTarget "ZenTrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290D7C6A2B33F0BB00EA9877 /* Debug */,
+				290D7C6B2B33F0BB00EA9877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		290D7C6C2B33F0BB00EA9877 /* Build configuration list for PBXNativeTarget "ZenTrainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				290D7C6D2B33F0BB00EA9877 /* Debug */,
+				290D7C6E2B33F0BB00EA9877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 290D7C382B33F0B500EA9877 /* Project object */;
+}
