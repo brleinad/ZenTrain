@@ -11,15 +11,26 @@ import SwiftData
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var logs: [ExerciseLog]
-
+    
     var body: some View {
         NavigationSplitView {
             List {
-                ForEach(logs) { log in
-                    NavigationLink {
-                        Text("\(log.exercise)")
-                    } label: {
-                        Text(log.exercise)
+                ForEach(logs) { exerciseLog in
+                    HStack{
+                        Text("\(exerciseLog.exercise)")
+                        Spacer()
+                        Button(action: { addSet(for: exerciseLog) }) {
+                            Label("", systemImage: "plus")
+                        }
+                    }
+                    ForEach(exerciseLog.sets) { exerciseSet in
+                        HStack{
+                            Text("\(exerciseSet.weight) x \(exerciseSet.reps)")
+                            Spacer()
+                            Button(action: { addRep(for: exerciseSet) }) {
+                                Label("", systemImage: "plus")
+                            }
+                        }
                     }
                 }
                 .onDelete(perform: deleteLog)
@@ -38,19 +49,30 @@ struct ContentView: View {
             Text("Select an item")
         }
     }
-
+    
+    private func addSet(for log: ExerciseLog) {
+        let newSet = ExerciseSet(reps: 0, weight: 69)
+        log.sets.append(newSet)
+    }
+    
+    private func addRep(for set: ExerciseSet) {
+        set.reps += 1
+    }
+    
+    private func reduceRep(for set: ExerciseSet) {
+        set.reps -= 1
+    }
+    
+    
     private func addLog() {
         withAnimation {
             let newLog = ExerciseLog(exercise: "20mm",
-                                     timestamp: Date(),
-                                     sets: 1,
-                                     reps: 1,
-                                     weight: 69
+                                     timestamp: Date()
             )
             modelContext.insert(newLog)
         }
     }
-
+    
     private func deleteLog(offsets: IndexSet) {
         withAnimation {
             for index in offsets {
@@ -59,6 +81,8 @@ struct ContentView: View {
         }
     }
 }
+
+
 
 #Preview {
     ContentView()
